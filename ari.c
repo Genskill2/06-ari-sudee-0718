@@ -8,6 +8,7 @@
 string ari(string s)
 {
 	int i = 0;
+	  int y;
 	float t = 0;
 	float count1 = 0;
 	float count2 = 0;
@@ -21,7 +22,7 @@ string ari(string s)
 		if (s[i] == '.' || s[i] == '?' || s[i] == '!')
 			count3++;
 	}
-	t = 4.71 * (count1 / count2) + 0.5 * (count2 / count3) - 21.43;
+	t = (4.71 * (count1 / count2) )+ (0.5 * (count2 / count3)) - 21.43;
 	int y = t + 1;
 	switch (y)
 	{
