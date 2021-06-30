@@ -26,10 +26,10 @@ string ari(string s)
 			continue;
 		}
 	}
-	float answer = (4.71 * characters/words)+(0.5*words/sentences)-21.43;
-	int real = ceil(answer);
+	float val = (4.71 * characters/words)+(0.5*words/sentences)-21.43;
+	int sco = ceil(val);
 	
-	switch (real)
+	switch (sco)
 	{
 	case 1:
 		return "Kindergarten";
