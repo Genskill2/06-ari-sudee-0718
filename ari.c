@@ -1,3 +1,11 @@
+
+#include <stdio.h>
+#include <string.h>
+#include <cs50.h>
+#include <ctype.h>
+#include <assert.h>
+
+
 string ari(string s)
 {
 	int i = 0;
@@ -52,5 +60,4 @@ string ari(string s)
 	return " ";
 
 }
- 
  
